@@ -63,6 +63,7 @@ section[id] {
   color: var(--ink-solar);
   margin: 0 0 14px;
   font-weight: 800;
+  margin-top: 30px;
 }
 
 .accent-solar-system {
@@ -2733,3 +2734,22 @@ body.modal-open {
 }
 
 
+
+/* =========================================
+   HERO IMAGE: keep width/position, reduce height only (desktop)
+   ========================================= */
+@media (min-width: 1025px){
+
+  /* keep alignment same (no moving left/right) */
+  .grid-hero-solar-system{ align-items: start !important; }
+  .hero-right-solar-system{ align-self: start !important; }
+
+  /* ✅ ONLY change height behaviour */
+  .hero-img-solar-system{
+    /* do NOT touch width here (your current width stays) */
+    aspect-ratio: 10 / 11 !important;   /* shorter than 4/5 -> reduces height */
+    max-height: 470px !important;       /* final limiter (tweak 450–520 if needed) */
+    height: auto !important;
+    object-fit: cover;
+  }
+}
