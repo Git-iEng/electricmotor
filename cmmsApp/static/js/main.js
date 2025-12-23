@@ -815,7 +815,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li>  Servo Motors:   Often used in robotics and CNC machines for accurate positioning.</li>
     </ul>
   `,
-      image: { src: '../static/images/type1.avif', alt: 'Industrial DC motor with high torque output' }
+      image: { src: '../static/images/picflow/type1.avif', alt: 'Industrial DC motor with high torque output' }
     },
     synchronousmotors: {
       title: 'Synchronous Motors',
@@ -840,7 +840,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li>  Load Compensation:   Utilized as synchronous condensers to control voltage stability in transmission systems.</li>
     </ul>
   `,
-      image: { src: '../static/images/type2.avif', alt: 'Large synchronous motor used for industrial constancy' }
+      image: { src: '../static/images/picflow/type2.avif', alt: 'Large synchronous motor used for industrial constancy' }
     },
     '3phaseinduction': {
       title: '3 Phase Induction Motors',
@@ -867,7 +867,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li>  HVAC Systems:   Used extensively in large-scale heating, ventilation, and air conditioning systems.</li>
     </ul>
   `,
-      image: { src: '../static/images/type3.avif', alt: 'Industrial three-phase induction motor' }
+      image: { src: '../static/images/picflow/type3.avif', alt: 'Industrial three-phase induction motor' }
     },
     singlephaseinduction: {
       title: 'Single Phase Induction Motors',
@@ -891,7 +891,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li>  Shaded Pole Motors:   Very simple, low-power, and low-cost, typically used in small fans and blowers.</li>
     </ul>
   `,
-      image: { src: '../static/images/type4.avif', alt: 'Single-phase induction motor with starting capacitor' }
+      image: { src: '../static/images/picflow/type4.avif', alt: 'Single-phase induction motor with starting capacitor' }
     },
     bearings: {
       title: 'Ball & Roller Bearings',
@@ -917,7 +917,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </ul>
   `,
       image: {
-        src: "../static/images/type5.avif",
+        src: "../static/images/picflow/type5.avif",
         alt: "Precision ball and roller bearings for industrial machinery"
       }
     },
@@ -945,7 +945,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <li>  Marine/Offshore:   Motors with marine-grade materials and enclosures to withstand corrosive environments.</li>
     </ul>
   `,
-      image: { src: '../static/images/type6.avif', alt: 'Specialized electric motor designed for high precision or hazardous environments' }
+      image: { src: '../static/images/picflow/type6.avif', alt: 'Specialized electric motor designed for high precision or hazardous environments' }
     },
 
 

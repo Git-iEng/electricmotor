@@ -780,7 +780,7 @@ body {
   overflow: clip;
 
   /* set your background image here (no inline styles) */
-  background-image: url("../images/types-banner.avif");
+  background-image: url("../images/picflow/Components.avif");
   background-size: cover;
   background-position: center right;
   /* give the band a stable minimum height without capping large screens */
@@ -2292,10 +2292,11 @@ body.modal-open {
 
 /* ---------- Grid ---------- */
 .lv-epp-grid{
-  display:grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
-  gap:22px;
-  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 520px)); /* 2 columns */
+  gap: 24px;
+  justify-content: center;  /* ✅ centers the whole 2-column block */
+  align-items: start;
 }
 @media (max-width:1024px){ .lv-epp-grid{ grid-template-columns: repeat(2,1fr); } }
 @media (max-width:640px){  .lv-epp-grid{ grid-template-columns: 1fr; } }
